@@ -1,7 +1,9 @@
 function Experience() {
-    return(
-        <div className="experience">Experience</div>
-    )
+	return (
+		<section id="experience" className="experience">
+			Experience
+		</section>
+	);
 }
 
 export default Experience;
