@@ -42,7 +42,7 @@ header {
     width: 20rem;
     height: 28rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(51.5% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     padding: 2rem 2rem 0 0.5rem;
@@ -70,9 +70,15 @@ header {
 
 /* =========== Media queries phone ========= */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     header {
-        height: 100vh; 
+        height: 100vh;
+    }
+
+    .portrait {
+        left: calc(55% - 9rem);
+        width: 15rem;
+        height: 21rem;
     }
 
     .header__socials, .scroll__down {
@@ -83,5 +89,23 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    header {
+        height: 130vh;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    header {
+        height: 160vh;
+    }
+
+    .portrait {
+        left: calc(55% - 8.5rem);
+        width: 15rem;
+        height: 21rem;
     }
 }
