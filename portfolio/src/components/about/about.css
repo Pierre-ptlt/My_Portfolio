@@ -76,6 +76,13 @@
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;
+        max-width: 100%;
+    }
+
+    .about__cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
     }
 
     .about__portrait {
@@ -98,7 +105,7 @@
     }
 
     .about__cards {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
 

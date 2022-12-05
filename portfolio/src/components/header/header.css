@@ -92,9 +92,15 @@ header {
     }
 }
 
+@media screen and (max-width: 394px) {
+    header {
+        height: 110vh;
+    }
+}
+
 @media screen and (max-width: 389px) {
     header {
-        height: 130vh;
+        height: 140vh;
     }
 }
 
