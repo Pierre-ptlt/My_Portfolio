@@ -16,9 +16,9 @@ function Portfolio() {
 					<h3>
 						Complete company rating app front-end from scratch - private for now
 					</h3>
-					<button disabled={true} className="disabled btn">
+					<a href="#portfolio" className="disabled btn">
 						View project
-					</button>
+					</a>
 				</article>
 				<article className="portfolio__item">
 					<div className="portfolio__item-image">
