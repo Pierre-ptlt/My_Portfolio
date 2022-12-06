@@ -94,3 +94,9 @@
         margin-top: 500px;
     }
 }
+
+@media screen and (max-height: 567px) {
+    .experience {
+        margin-top: 800px;
+    }
+}

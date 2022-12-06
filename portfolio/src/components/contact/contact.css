@@ -80,6 +80,10 @@
        margin-top: 50px;
     }
 
+    #btn-submit {
+        margin-bottom: 10rem;
+    }
+
 }
 
  /*================== Mobiles ==================*/
@@ -108,4 +112,10 @@
         margin-top: 1300px;
     }
 
+}
+
+@media screen and (max-height: 567px) {
+    .contact {
+        margin-top: 1600px;
+    }
 }

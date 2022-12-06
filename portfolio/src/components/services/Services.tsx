@@ -4,8 +4,8 @@ import { BiCheck } from 'react-icons/bi';
 function Services() {
 	return (
 		<section id="services" className="services">
-			<h5>What I offer</h5>
-			<h2>Services</h2>
+			<h5>My services</h5>
+			<h2>My technical stack</h2>
 			<div className="container services__container">
 				<article className="service">
 					<div className="service__head">
@@ -14,27 +14,27 @@ function Services() {
 					<ul className="service__list">
 						<li className="service__list-item">
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor sit, amet consectetur</p>
+							<p>React.JS</p>
 						</li>
 						<li className="service__list-item">
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor sit, amet consectetur</p>
+							<p>TypeScript / JavaScript</p>
 						</li>
 						<li className="service__list-item">
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor sit, amet consectetur</p>
+							<p>HTML / CSS3</p>
 						</li>
 						<li className="service__list-item">
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor sit, amet consectetur</p>
+							<p>Redux</p>
 						</li>
 						<li className="service__list-item">
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor sit, amet consectetur</p>
+							<p>Jest - TDD</p>
 						</li>
 						<li className="service__list-item">
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor sit, amet consectetur</p>
+							<p>Material UI</p>
 						</li>
 					</ul>
 				</article>
@@ -45,27 +45,27 @@ function Services() {
 					<ul className="service__list">
 						<li className="service__list-item">
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor sit, amet consectetur</p>
+							<p>WordPress</p>
 						</li>
 						<li className="service__list-item">
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor sit, amet consectetur</p>
+							<p>Elementor</p>
 						</li>
 						<li className="service__list-item">
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor sit, amet consectetur</p>
+							<p>Shopify</p>
 						</li>
 						<li className="service__list-item">
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor sit, amet consectetur</p>
+							<p>Woocommerce</p>
 						</li>
 						<li className="service__list-item">
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor sit, amet consectetur</p>
+							<p>Figma</p>
 						</li>
 						<li className="service__list-item">
 							<BiCheck className="service__list-icon" />
-							<p>Lorem ipsum dolor sit, amet consectetur</p>
+							<p>Agile / Kanban</p>
 						</li>
 					</ul>
 				</article>

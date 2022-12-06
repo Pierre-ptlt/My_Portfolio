@@ -30,7 +30,7 @@ function Contact() {
 	};
 
 	return (
-		<section className="contact">
+		<section id="contact" className="contact">
 			<h5>Get in touch</h5>
 			<h2>Contact</h2>
 			<div className="container contact__container">
@@ -69,7 +69,7 @@ function Contact() {
 						placeholder="Your message"
 						required
 					></textarea>
-					<button className="btn btn-primary" type="submit">
+					<button id="btn-submit" className="btn btn-primary" type="submit">
 						Send message
 					</button>
 				</form>

@@ -106,12 +106,24 @@ header {
 
 @media screen and (max-width: 321px) {
     header {
-        height: 160vh;
+        height: 180vh;
     }
 
     .portrait {
         left: calc(55% - 8.5rem);
         width: 15rem;
         height: 21rem;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    header {
+        height: 230vh;
+    }
+}
+
+@media screen and (max-height: 567px) {
+    header {
+        height: 310vh;
     }
 }
